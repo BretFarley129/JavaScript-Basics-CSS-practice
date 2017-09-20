@@ -1,0 +1,77 @@
+/*stylesheet for JavaScript Basics*/    
+    #wrapper{
+        width: 1300px;
+        height: 830px;
+        background-color: #1c345e;
+        margin: 0px auto;
+        padding: 10px;
+    }
+
+    #header{
+        height: 75px;
+        background-color: red;
+        margin: 10px;
+        border-radius: 8px;
+        
+       }
+    #header h1{
+        display: table-cell;
+        vertical-align:middle ;
+        color: white;
+    }
+
+    #navigation{
+        height: 300px;
+        width: 200px;
+        background-color: teal;
+        display: inline-block;
+        margin: 10px;
+        border-radius: 8px;
+        padding: 10px;
+    }
+
+    #main_content{
+        height: 600px;
+        width: 1015px;
+        background-color: black;
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px;
+        margin: 10px;
+        vertical-align: top;
+        border-radius: 8px;
+    
+       }
+
+       #main_content div{
+           word-wrap: break-word;
+       }
+
+       #main_content h3{
+           color: white;
+       }
+
+       #main_content div{
+        color: white;
+        display: inline;
+    }
+
+    #footer{
+        height: 60px;
+        background-color: gray;
+        margin: 10px;
+        border-radius: 8px;
+        padding: 10px,
+        
+       }
+
+    #footer p{
+        display: table-cell;
+        vertical-align:middle ;
+        color: white;
+        display: inline;
+    }
+
+    a{
+        color:#06FFD8;
+    }
